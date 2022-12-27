@@ -138,7 +138,6 @@ h2 {
 #center-about {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
 }
 
 hr {
@@ -162,4 +161,27 @@ hr {
     text-align: right;
     clear: both;  /* each content block is aligned vertically*/
     margin-bottom: 50px;
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('../images/ethos-center-image.jpg');
+    height: 100%; /* gjithmone vendos height per te shfaqur imazh */
+    border-radius: 50%;
 }
