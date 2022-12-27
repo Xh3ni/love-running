@@ -181,7 +181,17 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url('../images/ethos-center-image.jpg');
+    background: url('../images/ethos-center-image.jpg') no-repeat center center;
     height: 100%; /* gjithmone vendos height per te shfaqur imazh */
     border-radius: 50%;
+}
+
+/* event times */
+
+#times {
+    background: url('../images/dublin-city.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 }
