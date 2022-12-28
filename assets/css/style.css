@@ -245,3 +245,77 @@ footer {
 #photos > img {
     width: 100%;
 }
+
+/* Media queries */
+/* For larger to medium screen sizes */
+@media screen and (max-width: 1200px) { /* Styles appliedwhen the screen width is 1200px or below*/
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto; /* centerlize the content */
+    }
+
+     #welcome {
+        padding: 30px; /* Change the padding to keep the balance between the welcome message and the main image above*/
+        margin: 0; /* To clean up the vertical gap*/ 
+     }
+
+     #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0; /* Override any default desktop-level padding by setting to 0*/
+     }
+
+     #center-about {
+        clear: both; /*Set the image below the text*/
+        width: 100%;
+        float: left;
+        padding: 0;
+     }
+     hr {
+        display: none; /* hidde horizontal rule*/
+     }
+
+    
+}
+
+/* Sign Up */
+
+.form-section {
+    clear: left;
+    background: url('../images/signup-image.webp');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px; 
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
